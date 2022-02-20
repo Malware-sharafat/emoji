@@ -1,0 +1,31 @@
+nav li{
+    list-style: none;
+    padding: 10px;
+    background-image: linear-gradient(45deg,rgb(58, 52, 52),black);
+    
+    color: antiquewhite;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav > ul > li{
+    float: left;
+}
+nav a:hover{
+    color: rgb(219, 36, 137);
+}
+nav > ul{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.drop{
+    display: none ;
+   position: absolute;
+   
+   padding:0px ;
+}
+nav > ul > li:hover > ul{
+   display: block;
+   
+}
